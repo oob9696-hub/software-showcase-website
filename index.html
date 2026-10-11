@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="NexaFlow 是一款面向团队协作与智能自动化的 SaaS 平台，帮助企业提升效率与增长。"
+      content="LumaFlow 是一个极简风格的企业级产品展示网站，帮助团队提升效率与商业决策速度。"
     />
-    <title>NexaFlow | 智能协作与自动化平台</title>
+    <title>LumaFlow | 极简 3D 商业方案</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,597 +17,334 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav">
-        <div class="brand">
-          <span class="brand-mark">N</span>
-          <span>NexaFlow</span>
-        </div>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav">
+          <a href="#top" class="brand" aria-label="LumaFlow 首页">
+            <span class="brand-mark">L</span>
+            <span>LumaFlow</span>
+          </a>
 
-        <nav class="nav-links" aria-label="主导航">
-          <a href="#features">功能</a>
-          <a href="#showcase">展示</a>
-          <a href="#pricing">价格</a>
-          <a href="#reviews">评价</a>
-        </nav>
+          <nav class="nav-links" aria-label="主导航">
+            <a href="#features">功能</a>
+            <a href="#workflow">流程</a>
+            <a href="#pricing">价格</a>
+            <a href="#reviews">评价</a>
+          </nav>
 
-        <div class="nav-actions">
-          <a class="link-btn" href="#pricing">登录</a>
-          <a class="primary-btn" href="#pricing">免费试用</a>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <span class="badge">更快 · 更聪明 · 更稳定</span>
-            <h1>让团队工作从“重复劳动”转向“创造价值”。</h1>
-            <p>
-              NexaFlow 帮助企业统一任务管理、自动化流程和数据洞察，
-              让每个团队成员都能专注在真正重要的工作上。
-            </p>
-
-            <div class="cta-row">
-              <a class="primary-btn" href="#pricing">立即开始</a>
-              <a class="secondary-btn" href="#showcase">观看演示</a>
-            </div>
-
-            <div class="hero-meta">
-              <div>
-                <strong>12k+</strong>
-                <span>企业用户</span>
-              </div>
-              <div>
-                <strong>3.2x</strong>
-                <span>效率提升</span>
-              </div>
-              <div>
-                <strong>99.9%</strong>
-                <span>服务可用性</span>
-              </div>
-            </div>
+          <div class="nav-actions">
+            <a href="#pricing" class="nav-link">登录</a>
+            <a href="#pricing" class="btn btn-primary">免费试用</a>
           </div>
+        </div>
+      </header>
 
-          <div class="hero-visual" aria-label="产品界面展示">
-            <div class="dashboard-card main-card">
-              <div class="window-bar">
-                <span></span>
-                <span></span>
-                <span></span>
+      <main id="top">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">精准执行 · 智能协同</span>
+              <h1>让商业决策更快，团队执行更稳。</h1>
+              <p>
+                LumaFlow 帮助企业用更少的管理成本，统一协作、自动化流程和数据洞察，
+                让每一次动作都更有价值。
+              </p>
+
+              <div class="cta-row">
+                <a href="#pricing" class="btn btn-primary">立即开始</a>
+                <a href="#workflow" class="btn btn-ghost">查看流程</a>
               </div>
-              <div class="dashboard-body">
-                <aside class="sidebar-mini">
-                  <span class="active"></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </aside>
-                <div class="content-panel">
-                  <div class="chart-card">
-                    <div class="chart-header">
-                      <p>团队绩效</p>
-                      <span>+26.4%</span>
-                    </div>
-                    <div class="bars">
-                      <span style="height: 55%"></span>
-                      <span style="height: 72%"></span>
-                      <span style="height: 48%"></span>
-                      <span style="height: 88%"></span>
-                      <span style="height: 100%"></span>
-                    </div>
-                  </div>
-                  <div class="stat-grid">
-                    <div>
-                      <small>已完成</small>
-                      <strong>1,246</strong>
-                    </div>
-                    <div>
-                      <small>待办</small>
-                      <strong>193</strong>
-                    </div>
-                  </div>
+
+              <div class="meta-row">
+                <div>
+                  <strong>12K+</strong>
+                  <span>全球团队</span>
+                </div>
+                <div>
+                  <strong>3.2x</strong>
+                  <span>效率提升</span>
+                </div>
+                <div>
+                  <strong>99.9%</strong>
+                  <span>系统稳定</span>
                 </div>
               </div>
             </div>
 
-            <div class="floating-card success-card">
-              <div class="state-dot"></div>
-              <div>
-                <small>自动化任务</small>
-                <strong>已完成 84%</strong>
+            <div class="hero-visual" aria-label="产品3D预览">
+              <div class="orb orb-one"></div>
+              <div class="orb orb-two"></div>
+
+              <div class="dashboard-panel panel-main">
+                <div class="panel-topbar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <div class="panel-body">
+                  <aside class="left-nav">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </aside>
+
+                  <div class="content-area">
+                    <div class="mini-head">
+                      <p>实时运营</p>
+                      <span class="pill">+24.8%</span>
+                    </div>
+
+                    <div class="chart-bars">
+                      <span style="height: 42%"></span>
+                      <span style="height: 58%"></span>
+                      <span style="height: 49%"></span>
+                      <span style="height: 72%"></span>
+                      <span style="height: 89%"></span>
+                      <span style="height: 100%"></span>
+                    </div>
+
+                    <div class="kpi-grid">
+                      <div>
+                        <small>已完成</small>
+                        <strong>1,284</strong>
+                      </div>
+                      <div>
+                        <small>待办</small>
+                        <strong>186</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="floating-card card-top">
+                <div class="dot green"></div>
+                <div>
+                  <small>自动化任务</small>
+                  <strong>84% 已完成</strong>
+                </div>
+              </div>
+
+              <div class="floating-card card-bottom">
+                <div class="mini-avatar">AI</div>
+                <div>
+                  <small>智能助手</small>
+                  <strong>建议已生成</strong>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="logo-strip">
-        <div class="container logo-row">
-          <span>OpenAI</span>
-          <span>Notion</span>
-          <span>Slack</span>
-          <span>GitHub</span>
-          <span>Stripe</span>
-        </div>
-      </div>
-      </section>
-
-      <section id="features" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <span class="badge alt">功能亮点</span>
-            <h2>从项目管理到智能决策，一站式支持企业增长</h2>
+        <section class="logo-strip">
+          <div class="container logo-row">
+            <span>Notion</span>
+            <span>Slack</span>
+            <span>Stripe</span>
+            <span>GitHub</span>
+            <span>OpenAI</span>
           </div>
+        </section>
 
-          <div class="feature-grid">
-            <article class="feature-card">
-              <div class="icon-wrap purple">⚡</div>
-              <h3>自动化工作流</h3>
-              <p>
-                通过智能规则和 AI 助手自动分配任务、通知审批和触发后续动作。
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <div class="icon-wrap blue">📊</div>
-              <h3>实时分析仪表盘</h3>
-              <p>
-                一眼查看团队效率、项目进度和关键指标，随时优化运营节奏。
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <div class="icon-wrap green">🤝</div>
-              <h3>跨团队协作</h3>
-              <p>
-                让销售、产品、工程和运营各部门在同一个协作中心无缝对齐。
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <div class="icon-wrap orange">🔐</div>
-              <h3>安全合规</h3>
-              <p>
-                支持多层权限管理与审计日志，确保数据和流程执行具备可追踪性。
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="showcase" class="section alt-bg">
-        <div class="container showcase-wrap">
-          <div class="section-heading left">
-            <span class="badge alt">产品展示</span>
-            <h2>为快速成长的团队设计的工作平台</h2>
-          </div>
-
-          <div class="showcase-grid">
-            <div class="showcase-panel large">
-              <div class="panel-header">
-                <span>项目发布中心</span>
-                <span class="tag">Live</span>
-              </div>
-              <ul>
-                <li><span class="dot green"></span> 产品需求评审已完成</li>
-                <li><span class="dot blue"></span> 设计稿已同步给开发团队</li>
-                <li><span class="dot orange"></span> 15 个待处理审批已自动提醒</li>
-              </ul>
+        <section id="features" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow dark">核心能力</span>
+              <h2>一站式工作系统，连接每个业务动作</h2>
             </div>
 
-            <div class="showcase-panel">
-              <div class="mini-metric">
-                <p>本月完成任务</p>
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon-box purple">✦</div>
+                <h3>智能流程</h3>
+                <p>自动分配任务、推送提醒、统一审批，减少重复沟通成本。</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-box blue">▣</div>
+                <h3>数据洞察</h3>
+                <p>实时看板、KPI 聚合和业务分析，让每个决策更清晰。</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-box green">◎</div>
+                <h3>协作无缝</h3>
+                <p>让销售、产品、研发和运营在同一协作平台中高效衔接。</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-box silver">◇</div>
+                <h3>安全可信</h3>
+                <p>权限控制、审计日志与合规方案，帮助团队更安心地执行。</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="workflow" class="section section-soft">
+          <div class="container workflow-wrap">
+            <div class="section-heading left">
+              <span class="eyebrow dark">工作方式</span>
+              <h2>从创意到交付，流程可视化且可追踪</h2>
+            </div>
+
+            <div class="workflow-grid">
+              <div class="workflow-card large-card">
+                <div class="workflow-header">
+                  <span>项目发布中心</span>
+                  <span class="pill success">Live</span>
+                </div>
+
+                <ul>
+                  <li><span class="dot green"></span> 产品评审已完成</li>
+                  <li><span class="dot blue"></span> 设计稿已同步至研发</li>
+                  <li><span class="dot gold"></span> 15 个待处理事项已自动提醒</li>
+                </ul>
+              </div>
+
+              <div class="workflow-card stat-card">
+                <p>本月交付量</p>
                 <strong>4,280</strong>
                 <small>对比上月 +32%</small>
               </div>
-            </div>
 
-            <div class="showcase-panel">
-              <div class="timeline">
-                <div>
-                  <span class="point"></span>
+              <div class="workflow-card">
+                <div class="timeline">
                   <div>
-                    <strong>1:00 PM</strong>
-                    <p>定时汇报已生成</p>
+                    <span class="line-dot"></span>
+                    <div>
+                      <strong>09:00</strong>
+                      <p>日报自动生成</p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <span class="point"></span>
                   <div>
-                    <strong>2:30 PM</strong>
-                    <p>自动分配待办事项</p>
+                    <span class="line-dot"></span>
+                    <div>
+                      <strong>13:20</strong>
+                      <p>待办已分配</p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <span class="point"></span>
                   <div>
-                    <strong>4:10 PM</strong>
-                    <p>风险提醒已发出</p>
+                    <span class="line-dot"></span>
+                    <div>
+                      <strong>17:40</strong>
+                      <p>风险已提醒</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="pricing" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <span class="badge alt">定价方案</span>
-            <h2>根据团队规模灵活选择</h2>
+        <section id="pricing" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow dark">价格方案</span>
+              <h2>适合不同规模企业的灵活方案</h2>
+            </div>
+
+            <div class="pricing-grid">
+              <article class="price-card">
+                <div class="plan-name">Starter</div>
+                <div class="price">¥29<span>/月</span></div>
+                <ul>
+                  <li>1 个工作区</li>
+                  <li>任务协作</li>
+                  <li>基础分析</li>
+                  <li>Email 支持</li>
+                </ul>
+                <a href="#top" class="btn btn-ghost full">开始试用</a>
+              </article>
+
+              <article class="price-card featured">
+                <div class="plan-badge">最受欢迎</div>
+                <div class="plan-name">Professional</div>
+                <div class="price">¥79<span>/月</span></div>
+                <ul>
+                  <li>无限项目</li>
+                  <li>AI 自动化</li>
+                  <li>高级仪表盘</li>
+                  <li>优先支持</li>
+                </ul>
+                <a href="#top" class="btn btn-primary full">立即购买</a>
+              </article>
+
+              <article class="price-card">
+                <div class="plan-name">Enterprise</div>
+                <div class="price">定制<span>方案</span></div>
+                <ul>
+                  <li>专属部署</li>
+                  <li>权限定制</li>
+                  <li>数据迁移</li>
+                  <li>企业级 SLA</li>
+                </ul>
+                <a href="#top" class="btn btn-ghost full">联系销售</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="reviews" class="section section-soft">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow dark">客户反馈</span>
+              <h2>他们相信，系统的价值来自执行力</h2>
+            </div>
+
+            <div class="review-grid">
+              <blockquote class="review-card">
+                “流程统一后，我们的交付效率提升了 31%，团队协作更加稳���。”
+                <footer>
+                  <strong>Anna Lee</strong>
+                  <span>运营负责人</span>
+                </footer>
+              </blockquote>
+
+              <blockquote class="review-card">
+                “界面极简，但功能非常强大；尤其是自动化能力，真的省了很多人力。”
+                <footer>
+                  <strong>Jason Zhang</strong>
+                  <span>增长团队领导</span>
+                </footer>
+              </blockquote>
+
+              <blockquote class="review-card">
+                “从最初部署到团队上线，几乎没有阻碍，完成度很高。”
+                <footer>
+                  <strong>Priya Nair</strong>
+                  <span>CTO</span>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <a href="#top" class="brand footer-brand" aria-label="LumaFlow 首页">
+              <span class="brand-mark">L</span>
+              <span>LumaFlow</span>
+            </a>
+            <p>让每个团队动作都更清晰、更高效。</p>
           </div>
 
-          <div class="pricing-grid">
-            <article class="price-card">
-              <div class="plan-name">Starter</div>
-              <div class="price">¥29<span>/月</span></div>
-              <ul>
-                <li>1 个项目空间</li>
-                <li>团队协作</li>
-                <li>基础分析报表</li>
-                <li>Email 支持</li>
-              </ul>
-              <button class="secondary-btn full">开始试用</button>
-            </article>
-
-            <article class="price-card featured">
-              <div class="plan-tag">最受欢迎</div>
-              <div class="plan-name">Professional</div>
-              <div class="price">¥79<span>/月</span></div>
-              <ul>
-                <li>无限项目</li>
-                <li>AI 自动化流程</li>
-                <li>高级报表和自定义仪表盘</li>
-                <li>优先技术支持</li>
-              </ul>
-              <button class="primary-btn full">立即购买</button>
-            </article>
-
-            <article class="price-card">
-              <div class="plan-name">Enterprise</div>
-              <div class="price">定制<span>方案</span></div>
-              <ul>
-                <li>专属部署支持</li>
-                <li>权限及合规定制</li>
-                <li>数据迁移服务</li>
-                <li>企业级 SLA</li>
-              </ul>
-              <button class="secondary-btn full">联系销售</button>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="reviews" class="section alt-bg">
-        <div class="container">
-          <div class="section-heading">
-            <span class="badge alt">客户评价</span>
-            <h2>他们都在用 NexaFlow 提升执行力</h2>
+          <div class="footer-links">
+            <a href="#features">功能</a>
+            <a href="#workflow">流程</a>
+            <a href="#pricing">价格</a>
+            <a href="#reviews">评价</a>
           </div>
 
-          <div class="review-grid">
-            <blockquote class="review-card">
-              “团队流程打通后，我们的项目交付周期缩短了 31%，团队协作效率明显提升。”
-              <footer>
-                <strong>Anna Lee</strong>
-                <span>产品运营总监</span>
-              </footer>
-            </blockquote>
-
-            <blockquote class="review-card">
-              “最有价值的是它把重复劳动自动化了。我们几乎不用再做手动汇总和跟进。”
-              <footer>
-                <strong>Jason Zhang</strong>
-                <span>增长团队负责人</span>
-              </footer>
-            </blockquote>
-
-            <blockquote class="review-card">
-              “界面清晰、功能强大，实施过程很顺，团队很快就能上手。”
-              <footer>
-                <strong>Priya Nair</strong>
-                <span>CTO</span>
-              </footer>
-            </blockquote>
-          </div>
+          <a href="#pricing" class="btn btn-primary">预约演示</a>
         </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <div>
-          <div class="brand footer-brand">
-            <span class="brand-mark">N</span>
-            <span>NexaFlow</span>
-          </div>
-          <p>让每个工作流都更高效、更智能、更顺畅。</p>
-        </div>
-
-        <div class="footer-links">
-          <a href="#features">功能</a>
-          <a href="#showcase">展示</a>
-          <a href="#pricing">价格</a>
-          <a href="#reviews">评价</a>
-        </div>
-
-        <a class="primary-btn" href="#pricing">预约演示</a>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="script.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
